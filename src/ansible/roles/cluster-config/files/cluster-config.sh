@@ -11,7 +11,7 @@ fi
 
 export ACME_STAGING=${ACME_STAGING:-}
 
-cd ${WORK_DIR} && git clone https://github.com/eformat/rhoai-policy-collection.git
+cd ${WORK_DIR} && git clone https://github.com/derekwaters/rhoai-policy-collection.git
 cd ${WORK_DIR}/rhoai-policy-collection
 
 echo "💥 Working directory is: $(pwd)" | tee -a output.log

@@ -5,7 +5,7 @@ readonly GREEN='\033[0;32m'
 readonly ORANGE='\033[38;5;214m'
 readonly NC='\033[0m' # No Color
 
-cd ${WORK_DIR} && git clone https://github.com/eformat/rhoai-policy-collection.git
+cd ${WORK_DIR} && git clone https://github.com/derekwaters/rhoai-policy-collection.git
 cd ${WORK_DIR}/rhoai-policy-collection
 
 echo "💥 Working directory is: $(pwd)" | tee -a output.log
