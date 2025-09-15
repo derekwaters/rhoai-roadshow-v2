@@ -1,0 +1,3 @@
+export INFERENCE_MODEL=llama_3b
+export LLAMA_STACK_ENDPOINT=llamastack-with-config-service.llama-stack.svc.cluster.local
+export LLAMA_STACK_PORT=8321
