@@ -4,6 +4,8 @@
 
 This takes approx ~70-120 minutes to complete.
 
+If you are looking to set the roadshow up for a larger audience, there is now a [Hive ClusterPool based install](https://github.com/eformat/rhoai-cluster-pool) which may be better suited than the all-in-one version described below.
+
 ## Prerequsites
 
 1. Order an `Getting to know Red Hat OpenShift AI Workshop` for yourself from this catalog item [demo.redhat.com](https://catalog.demo.redhat.com/catalog?search=Getting+to+know+Red+Hat+OpenShift+AI+Workshop)
@@ -110,7 +112,7 @@ export PULL_SECRET=~/tmp/pull-secret          # NOTE THIS IS A FILE - download y
 export SSH_KEY=$(cat ~/.ssh/id_rsa.pub)       # NOTE THIS IS A FILE
 export INSTANCE_TYPE=g6.8xlarge   # 24GB L4 Nvidia, 32 vCPUs, 128 GiB of memory and 25 Gibps of bandwidth ~$2 per hour
 export ROOT_VOLUME_SIZE=400       # can be anything, but leave as is unless you need to change it
-export OPENSHIFT_VERSION=4.19.6   # change this we will keep this working with the latest GA version
+export OPENSHIFT_VERSION=4.19.11  # change this we will keep this working with the latest GA version
 export ADMIN_PASSWORD=password    # change this for your admin user
 export EMAIL=your@email.com       # change this for lets encrypt certs admin email
 export ANSIBLE_VAULT_SECRET=..    # change this to the ansible secret for vault-sno (available from the lab instructions page in demo redhat com)
